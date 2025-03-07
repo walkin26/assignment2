@@ -1,9 +1,58 @@
-/* Center h2 elements */
-h1 {
-    text-align: center;
+body {
+    background-color: #18B092 !important;
 }
 
-/* Center images */
+
+.herocontainer {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #18B092;
+    color: white;
+}
+
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700 !important;
+    font-style: normal;
+    font-size: 90px !important;
+    color: white !important;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px !important;
+    color: white !important;
+}
+
+h3 {
+    font-family: "DM Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px !important;
+}
+
+p {
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400 !important;
+    font-style: normal;
+    font-size: 20px !important;
+}
+
 img {
     display: block;
     margin-left: auto;
