@@ -1,5 +1,5 @@
 body {
-    background-color: #18B092 !important;
+    background-color: white !important;
 }
 
 
@@ -15,7 +15,7 @@ body {
     align-items: center;
     text-align: center;
     background-color: #18B092;
-    color: white;
+    color: white !important;
 }
 
 
@@ -31,18 +31,19 @@ h1 {
 h2 {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 700;
+    font-weight: 600 !important;
     font-style: normal;
     font-size: 40px !important;
-    color: white !important;
+    color: #1c1c1c !important;
 }
 
 h3 {
-    font-family: "DM Sans", serif;
+    font-family: "Karla", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 600 !important;
     font-style: normal;
-    font-size: 25px !important;
+    font-size: 30px !important;
+    color: #1c1c1c !important;
 }
 
 p {
@@ -51,10 +52,17 @@ p {
     font-weight: 400 !important;
     font-style: normal;
     font-size: 20px !important;
+    color: #1c1c1c !important;
 }
 
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.line {
+    width: 100%;
+    border: 1px solid #d9d9d9 !important; 
+    opacity: 1;
 }
