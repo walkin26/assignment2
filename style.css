@@ -16,6 +16,8 @@ body {
     text-align: center;
     background-color: #18B092;
     color: white !important;
+    padding-left: 80px !important;
+    padding-right: 80px !important;
 }
 
 
@@ -43,6 +45,25 @@ h3 {
     font-weight: 600 !important;
     font-style: normal;
     font-size: 30px !important;
+    color: #1c1c1c !important;
+    margin-bottom: 32px !important;
+}
+
+h4 {
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500 !important;
+    font-style: normal;
+    font-size: 25px !important;
+    color: white !important;
+}
+
+h5 {
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500 !important;
+    font-style: normal;
+    font-size: 25px !important;
     color: #1c1c1c !important;
 }
 
