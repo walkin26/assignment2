@@ -1,14 +1,6 @@
 import creepyface from 'creepyface'
 
-$(document).ready(function() {
-    // Select the .box element and apply jrumble
-    $('.box').jrumble({
-        x: 2,
-        y: 2,
-        rotation: 1
-    });
-
-    // Select the img element and apply creepyface
+document.addEventListener('DOMContentLoaded', () => {
     const img = document.querySelector('img')
 
     const cancel = creepyface(img, {
