@@ -1,0 +1,11 @@
+/* Center h2 elements */
+h1 {
+    text-align: center;
+}
+
+/* Center images */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
